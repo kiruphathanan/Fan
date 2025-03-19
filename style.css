@@ -1,0 +1,51 @@
+body{
+
+    background-color: aquamarine    ;
+
+}
+
+
+
+button{
+
+    background-color:black;
+
+    color: beige;
+
+    width: 100px;
+
+    height: 40px;
+
+}
+
+
+
+button:hover{
+
+    cursor: pointer;
+
+    background-color: aliceblue;
+
+    color: black;
+
+}
+
+
+
+.rotate {
+
+    animation: spin 1s linear infinite ;
+
+}
+
+@keyframes spin{
+
+    100%{
+
+        transform: rotate(720deg);
+
+        transform-origin: center;
+
+    }
+
+}
